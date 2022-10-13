@@ -6,9 +6,9 @@
 >
 > @Date：2022-10-13
 >
-> Github Link：[https://github.com/SUSTech-AMASLAB/RGB-D_Camera_Based_Robotic_Grasping_Project](https://github.com/SUSTech-AMASLAB/RGB-D_Camera_Based_Robotic_Grasping_Project)
+> @Github Link：[https://github.com/SUSTech-AMASLAB/RGB-D_Camera_Based_Robotic_Grasping_Project](https://github.com/SUSTech-AMASLAB/RGB-D_Camera_Based_Robotic_Grasping_Project)
 >
-> Project Author：[王俊麟](https://github.com/HenryWJL)、[Li Dong](https://github.com/DoongLi)
+> @Project Author：[王俊麟](https://github.com/HenryWJL)、[Li Dong](https://github.com/DoongLi)
 
 ## Introduction
 
@@ -57,4 +57,4 @@ Reference :
 
 ## File Description
 
-- README.md：项目发布者创建的项目说明文档，非必要禁止改动。
+- **README.md**：项目发布者创建的项目说明文档，非必要禁止改动。
