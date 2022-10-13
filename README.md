@@ -5,10 +5,10 @@
 > @Author：[Li Dong](https://github.com/DoongLi)
 >
 > @Date：2022-10-13
-
-Github Link：[https://github.com/SUSTech-AMASLAB/RGB-D_Camera_Based_Robotic_Grasping_Project](https://github.com/SUSTech-AMASLAB/RGB-D_Camera_Based_Robotic_Grasping_Project)
-
-Project author：[王俊麟](https://github.com/HenryWJL)、[Li Dong](https://github.com/DoongLi)
+>
+> Github Link：[https://github.com/SUSTech-AMASLAB/RGB-D_Camera_Based_Robotic_Grasping_Project](https://github.com/SUSTech-AMASLAB/RGB-D_Camera_Based_Robotic_Grasping_Project)
+>
+> Project Author：[王俊麟](https://github.com/HenryWJL)、[Li Dong](https://github.com/DoongLi)
 
 ## Introduction
 
