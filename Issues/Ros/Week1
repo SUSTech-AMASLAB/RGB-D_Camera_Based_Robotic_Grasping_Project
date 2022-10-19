@@ -1,1 +1,2 @@
-
+1. 依然是catkin_make时出错
+2. 下载一些package时显示not configured（但package能下载下来）
