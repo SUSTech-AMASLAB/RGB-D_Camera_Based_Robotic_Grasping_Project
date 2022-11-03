@@ -25,16 +25,31 @@ Intro: install the targets.
 
 
 3.Manifests (package.xml)
-Intro: a description of a package. Containing defined dependencies between packages, version, maintainer, license, etc...
+Intro: a description of a package. Containing defined dependencies between packages, version, maintainer, license, etc...
 
 4.Catkin packages
 Intro: a package that meets the following requirements:
-(1)contain a package.xml.
-(2)contain a CMakeLists.txt.
+(1)contain a package.xml.
+(2)contain a CMakeLists.txt.
 (3)no nested packages nor multiple packages sharing the same directory.
 
 5.REP128
 Intro: a naming convention.
+
+6.Node
+Intro: an executable cpp or python documents.
+
+7.Message
+Intro: a simple data type of information transmitted when subscribing or publishing to a topic.
+
+8.Topic
+Intro: nodes don’t know who they are communicating with, so a topic is needed for nodes to subscribe or publish to.
+
+9.Master
+Intro: enable individual ROS nodes to locate one another. 
+
+10.Rqt_graph
+Intro: showing the connection between nodes through topics.
 
 
 Basic commands
@@ -46,13 +61,13 @@ Intro: print environment variables.
 Intro: execute initialization documents.
 
 3.catkin_make
-Intro: called at ~/catkin_ws/, used to build any packages located in ~/catkin_ws/src. (with cmake)
+Intro: called at ~/catkin_ws/, used to build any packages located in ~/catkin_ws/src. (with cmake)
 
 Remark: 
 Make: just compile what is changed.
 Build: completely compile all.
 
-4.sudo apt-get install package name
+4.sudo apt-get install package_name
 Intro: install ROS packages.
 
 5.pwd
@@ -61,7 +76,7 @@ Intro: print the path of current directory
 6.echo *
 Intro: display something on the screen (e.g. environment variables)
 
-7.mkdir (-p) package name
+7.mkdir (-p) package_name
 Intro: create an empty directory.
 
 ROS Commands
@@ -77,5 +92,26 @@ Intro: change directory.
 3.rosls
 Intro: list the documents inside a package.
 
-4.catkin_create_pkg package name dependency1 dependency2 ...
+4.catkin_create_pkg package_name dependency1 dependency2 ...
 Intro: create a catkin package.
+
+5.roscore
+Intro: a command to run before using any ROS nodes.
+
+6.rosnode list
+Intro: list the currently running nodes.
+
+7.rosnode ping node_name
+Intro: test if the node is successfully connected to computer.
+
+8.rosrun package_name node_name ( __name:=new_node_name)
+Intro: use the package name to directly run a node within a package (without having to know the package path).
+
+9.rostopic echo topic_name
+Intro: display the data of a topic.
+
+10.rostopic type topic_name
+Intro: print the type of the topic.
+
+Remark:
+The publisher and subscriber must send and receive the same type of message. This means that a topic type is defined by the message type published on it.
