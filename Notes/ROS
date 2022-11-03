@@ -1,0 +1,81 @@
+Basic concepts
+
+1.Setup.bash
+Intro: Allow users to have access to some ROS commands. 
+
+Sourcing two different setup.bash:
+(1)source /opt/ros/melodic(noedic)/setup.bash
+Intro: to have access to the ROS commands when opening new shells.(before catkin_make)
+(2)source ~/catkin_ws/devel/setup.bash
+Intro: to add the workspace to ROS environment after building packages.(after catkin_make)
+
+
+2.Catkin workspace
+Intro: a folder where you modify, build, and install catkin packages.
+
+Content:
+(1)Source space
+Intro: containing the source code of catkin packages. 
+(2)Build space
+Intro: where cmake and make are called to build the catkin packages.
+(3)Development (Devel) space 
+Intro: where built targets are placed before being installed.
+(4)Install space
+Intro: install the targets.
+
+
+3.Manifests (package.xml)
+Intro: a description of a package. Containing defined dependencies between packages, version, maintainer, license, etc...
+
+4.Catkin packages
+Intro: a package that meets the following requirements:
+(1)contain a package.xml.
+(2)contain a CMakeLists.txt.
+(3)no nested packages nor multiple packages sharing the same directory.
+
+5.REP128
+Intro: a naming convention.
+
+
+Basic commands
+
+1.printenv | grep ROS
+Intro: print environment variables.
+
+2.source filename or . filename
+Intro: execute initialization documents.
+
+3.catkin_make
+Intro: called at ~/catkin_ws/, used to build any packages located in ~/catkin_ws/src. (with cmake)
+
+Remark: 
+Make: just compile what is changed.
+Build: completely compile all.
+
+4.sudo apt-get install package name
+Intro: install ROS packages.
+
+5.pwd
+Intro: print the path of current directory
+
+6.echo *
+Intro: display something on the screen (e.g. environment variables)
+
+7.mkdir (-p) package name
+Intro: create an empty directory.
+
+ROS Commands
+
+Caution: these commands are applied to ROS packages that are within the directories listed in ROS_PACKAGE_PATH.
+
+1.rospack find
+Intro: find packages by names.
+
+2.roscd
+Intro: change directory.
+
+3.rosls
+Intro: list the documents inside a package.
+
+4.catkin_create_pkg package name dependency1 dependency2 ...
+Intro: create a catkin package.
