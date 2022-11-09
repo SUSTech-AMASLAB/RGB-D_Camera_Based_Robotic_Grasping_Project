@@ -51,6 +51,29 @@ Intro: enable individual ROS nodes to locate one another. 
 10.Rqt_graph
 Intro: showing the connection between nodes through topics.
 
+11.Rqt_plot
+Intro: displays a scrolling time plot of the data published on topics.
+
+12.Service
+Intro: another way for nodes to communicate with each other. Topic is unidirectional while service is bidirectional (nodes can send a request and receive a response).
+
+13.Rqt_console
+Intro: often used with rqt_logger_level to publish some information when nodes are running.
+
+14.Rqt_logger_level
+Intro: there are five levels to set. The priority is shown below, if you set one, levels prior to it will also be called.
+
+Fatal  Error  Warn  Info  Debug
+Highest                     lowest
+
+15.Msg
+Intro: msg files are simple text files that describe the fields of a ROS message. They are used to generate source code for messages in different languages.
+
+16.Srv
+Intro: srv files describe a ROS service. They’re similar to msg files, except that they are composed of a request and a response, which are separated by a ‘---’ line.
+
+
+
 
 Basic commands
 
@@ -78,6 +101,9 @@ Intro: display something on the screen (e.g. environment variables)
 
 7.mkdir (-p) package_name
 Intro: create an empty directory.
+
+8.Touch filename
+Intro: create a new file.
 
 ROS Commands
 
@@ -115,3 +141,38 @@ Intro: print the type of the topic.
 
 Remark:
 The publisher and subscriber must send and receive the same type of message. This means that a topic type is defined by the message type published on it.
+
+11.rosmsg show typename
+Intro: display detailed information of a message.
+
+12.rostopic pub topic_name message_type arguments
+Intro: publish data on to a topic.
+
+13.rosservice type service_name
+Intro: print the type of the service. 
+
+Empty: takes no arguments (i.e. it sends no data when making a request and receives no data when receiving a response).
+
+14.rosservice call service_name arguments
+Intro: run the service.
+
+15.rossrv show typename
+Intro: display detailed information of a service. 
+
+16.rosparam
+Intro: some commands manipulating on the parameters of nodes. 
+
+rosparam dump filename namespace:
+Store the current parameters in a file.
+
+rosparam load filename namespace:
+Read the parameters in a file and set the current parameters to those.
+
+17.roslaunch package_name filename.launch
+Intro: starts nodes as defined in a launch file.
+
+18.Rosed package_name filename
+Intro: directly edit a file within a package by using the package name.
+
+19.roscp package_name filename copy_path
+Intro: copy a file inside a package to another package.
