@@ -102,8 +102,17 @@ Intro: display something on the screen (e.g. environment variables)
 7.mkdir (-p) package_name
 Intro: create an empty directory.
 
-8.Touch filename
+8.touch filename
 Intro: create a new file.
+
+9.wget URL
+Intro: download a file from the given URL.
+
+10.tee
+Intro: often used with pipe to read data from one file and write it into another file. 
+
+11.rg
+Intro: ripgrep, a stronger tool than grep.
 
 ROS Commands
 
@@ -176,3 +185,20 @@ Intro: directly edit a file within a package by using the package name.
 
 19.roscp package_name filename copy_path
 Intro: copy a file inside a package to another package.
+
+20.rosbag record topic1 topic2 ...
+Intro: record the publishing data and store it in a bagfile.
+
+-a: record all the topics publishing data.
+
+-o bagfile_name: name the bagfile with bag_name.
+
+21.rosbag play bagfile_name
+Intro: play what was recorded in a bagfile.
+
+22.ros_readbagfile bagfile_name topic1 topic2 ...
+Intro: read and play a number of bagfiles at the same time.
+
+23.roswtf
+Intro: examine the current directory to find if there are some problems.
+
