@@ -56,6 +56,7 @@ Reference :
 - [hand-eye calibration](https://blog.csdn.net/qq_27865227/article/details/119650312?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522167774596016782427469475%2522%252C%2522scm%2522%253A%252220140713.130102334..%2522%257D&request_id=167774596016782427469475&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~all~sobaiduend~default-1-119650312-null-null.142^v73^pc_new_rank,201^v4^add_ask,239^v2^insert_chatgpt&utm_term=jaka&spm=1018.2226.3001.4187)
 - [moveit](http://docs.ros.org/en/melodic/api/moveit_tutorials/html/doc/move_group_python_interface/move_group_python_interface_tutorial.html)
 - [Intel pyrealsense2](https://intelrealsense.github.io/librealsense/python_docs/_generated/pyrealsense2.html#module-pyrealsense2)
+- [Open3d](http://www.open3d.org/docs/release/)
 
 #### 5.整理相关项目资料
 
