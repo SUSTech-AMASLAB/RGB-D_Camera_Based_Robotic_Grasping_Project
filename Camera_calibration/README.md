@@ -21,6 +21,7 @@ Process:
 
 5. After a few seconds, the 'Save' and 'Commit' button will also turn green, which means that calibration is finished. Click 'Save' to save the results. You can find the saving path in the terminal.
 <p align="center"><img src="https://user-images.githubusercontent.com/40540281/55330573-065d8600-549a-11e9-996a-5d193cbd9a93.PNG" /></p>
+<p align="center"><img src="https://user-images.githubusercontent.com/40540281/55330573-065d8600-549a-11e9-996a-5d193cbd9a93.PNG" /></p>
 
 6. Run the following commands to unzip the results.
 ```bash
