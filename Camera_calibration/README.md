@@ -12,7 +12,8 @@ Process:
    roslaunch realsense2_camera rs_camera.launch
 ```
 
-2. Run the calibration program. Remember to revise the values of size (the number of corner points) and square (the real length of each grid of the calibration target (unit: m)):
+3. Run the calibration program. Remember to revise the values of size (the number of corner points) and square (the real length of each grid of the calibration target (unit: m)):
 ```bash
    rosrun camera_calibration cameracalibrator.py --size 8x5 --square 0.0285 image:=camera/color/image_raw camera:=/camera/color/camera_info --no-service-check
 ```
+<p align="center"><img src="https://user-images.githubusercontent.com/40540281/55330573-065d8600-549a-11e9-996a-5d193cbd9a93.PNG" /></p>
