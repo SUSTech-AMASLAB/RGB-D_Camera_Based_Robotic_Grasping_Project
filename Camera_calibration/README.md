@@ -1,4 +1,4 @@
-Requirements: Intel RealSense D455 camera, a calibration target.
+Requirements: Intel RealSense D455 camera, Calibration Target.
 
 Process:
 
@@ -12,7 +12,7 @@ Process:
    roslaunch realsense2_camera rs_camera.launch
 ```
 
-2. Run the calibration program. Remember to revise the size (the number of corner points) and the square (the real length of each grid of the calibration target (unit: m)):
+2. Run the calibration program. Remember to revise the values of size (the number of corner points) and square (the real length of each grid of the calibration target (unit: m)):
 ```bash
    rosrun camera_calibration cameracalibrator.py --size 8x5 --square 0.0285 image:=camera/color/image_raw camera:=/camera/color/camera_info --no-service-check
 ```
