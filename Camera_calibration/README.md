@@ -14,7 +14,7 @@ Process:
 ```bash
    rosrun camera_calibration cameracalibrator.py --size 8x5 --square 0.0285 image:=camera/color/image_raw camera:=/camera/color/camera_info --no-service-check
 ```
-<p align="center"><img src="https://github.com/HenryWJL/RGB-D_Camera_Based_Robotic_Grasping_Project/tree/main/Camera_calibration/Img/Img1.PNG" /></p>
+<p align="center"><img src="https://github.com/HenryWJL/RGB-D_Camera_Based_Robotic_Grasping_Project/tree/main/Camera_calibration/Img/Img1.png" /></p>
 
 4. Move the calibration target with your hands until the 'Calibrate' button turns green. Click it to start calibrating.
 <p align="center"><img src="https://user-images.githubusercontent.com/40540281/55330573-065d8600-549a-11e9-996a-5d193cbd9a93.PNG" /></p>
