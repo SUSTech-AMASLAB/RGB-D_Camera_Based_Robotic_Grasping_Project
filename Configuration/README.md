@@ -18,3 +18,7 @@ In this project, I used Python to control the robotic arm. You can download some
 ```
 
 ## 3 IDE (option)
+
+If you use IDE (Pycharm, Visual Studio Code, etc.) to write Python codes, it's necessary to let the Python interpreter know where the packages are. Here I take Pycharm as an example.
+
+#### (1) Open the "Settings" interface
