@@ -10,7 +10,9 @@ There are two ways of connection, see [here](https://github.com/SUSTech-AMASLAB/
 
 ## 2 Python API
 
-In this project, I used Python to control the robotic arm. You can download some references from [here](https://www.jaka.com/jszl.html). You can also view the tutorials from [here](https://github.com/HenryWJL/JAKA-MiniCobo/blob/main/SDK/python%E4%BA%8C%E6%AC%A1%E5%BC%80%E5%8F%91.pdf). After downloading the references, find two documents named "libjakaAPI.so" and "jkrc.so" and move them to the package where you store your Python codes. Eventually, run the following commands (Remember to replace "path" with the path where you store the above two documents).
+In this project, I used Python to control the robotic arm. You can download some references from [here](https://www.jaka.com/jszl.html). You can also view the tutorials from [here](https://github.com/HenryWJL/JAKA-MiniCobo/blob/main/SDK/python%E4%BA%8C%E6%AC%A1%E5%BC%80%E5%8F%91.pdf). 
+After downloading the references, find two documents named "libjakaAPI.so" and "jkrc.so" and move them to the package where you store your Python codes. 
+Eventually, run the following commands (Remember to replace "path" with the path where you store the above two documents).
 
 ```bash
    sudo ln -s  /path/libjakaAPI.so  /usr/lib
@@ -21,11 +23,11 @@ In this project, I used Python to control the robotic arm. You can download some
 
 If you use IDE (Pycharm, Visual Studio Code, etc.) to write Python codes, it's necessary to let the Python interpreter know where the packages are. Here I take Pycharm as an example.
 
-#### (1) Open the "Settings" interface and find "Python Interpreter". Click "Show all" to see all the possible intepreters.
+#### (1) Open the "Settings" interface and find "Python Interpreter". Click "Show all" to show all the possible interpreters.
 
 <p align="center"><img src="https://github.com/HenryWJL/RGB-D_Camera_Based_Robotic_Grasping_Project/blob/main/Configuration/Img/Img2.png" /></p>
 
-#### (2) Click the button as shown in the figure to see all the existing paths.
+#### (2) Click the button as shown in the figure to display all the existing paths.
 
 <p align="center"><img src="https://github.com/HenryWJL/RGB-D_Camera_Based_Robotic_Grasping_Project/blob/main/Configuration/Img/Img3.png" /></p>
 
