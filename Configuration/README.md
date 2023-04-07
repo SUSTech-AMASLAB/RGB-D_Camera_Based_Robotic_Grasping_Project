@@ -21,4 +21,14 @@ In this project, I used Python to control the robotic arm. You can download some
 
 If you use IDE (Pycharm, Visual Studio Code, etc.) to write Python codes, it's necessary to let the Python interpreter know where the packages are. Here I take Pycharm as an example.
 
-#### (1) Open the "Settings" interface
+#### (1) Open the "Settings" interface and find "Python Interpreter". Click "Show all" to see all the possible intepreters.
+
+<p align="center"><img src="https://github.com/HenryWJL/RGB-D_Camera_Based_Robotic_Grasping_Project/blob/main/Configuration/Img/Img2.png" /></p>
+
+#### (2) Click the button as shown in the figure to see all the existing paths.
+
+<p align="center"><img src="https://github.com/HenryWJL/RGB-D_Camera_Based_Robotic_Grasping_Project/blob/main/Configuration/Img/Img3.png" /></p>
+
+#### (3) Click "+" and add the path where ROS packages are stored.
+
+<p align="center"><img src="https://github.com/HenryWJL/RGB-D_Camera_Based_Robotic_Grasping_Project/blob/main/Configuration/Img/Img4.png" /></p>
