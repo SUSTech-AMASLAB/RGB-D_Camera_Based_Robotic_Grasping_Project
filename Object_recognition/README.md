@@ -20,7 +20,7 @@ If you only need object recognition based on 2D images, just run the following c
    rosrun find_object_2d find_object_2d image:=/camera/color/image_raw
 ```
 
-If you prefer object recognition based on 3D images, please first revise the launch file below.
+If you prefer object recognition based on 3D images, please first revise the launch file as below.
 
 ```bash
    cd /opt/ros/noetic/share/find_object_2d/launch/ros1
