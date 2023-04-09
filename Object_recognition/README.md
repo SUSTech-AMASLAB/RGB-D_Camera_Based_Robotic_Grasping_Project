@@ -1,19 +1,20 @@
 Requirements: Intel RealSense D455 camera, ROS find_object_2d package.
 
-Process (2d):
+Process:
 
-Download the find_object_2d package.
+#### (1) Download the find_object_2d package.
 
 ```bash
 sudo apt-get install ros-noetic-find-object-2d
 ```
 
-Start all the nodes of D455 camera.
+#### (2) Start all the nodes of D455 camera.
 
 ```bash
 roslaunch realsense2_camera rs_camera.launch
 ```
 
+#### (3)
 If you only need object recognition based on 2D images, just run the following command
 
 ```bash
