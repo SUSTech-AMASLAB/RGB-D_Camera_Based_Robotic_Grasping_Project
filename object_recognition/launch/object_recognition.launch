@@ -1,0 +1,13 @@
+<launch>
+
+  <include file="$(find realsense2_camera)/launch/rs_camera.launch">
+  </include>
+  
+  <include file="$(find find_object_2d)/launch/ros1/find_object_3d.launch">
+  </include>
+  
+  <node name="pose_estimation" pkg="object_recognition" type="pose_estimation.py" respawn="true" output="screen" >
+  </node>
+
+</launch>
+
