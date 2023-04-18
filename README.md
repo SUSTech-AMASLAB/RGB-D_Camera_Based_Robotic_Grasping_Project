@@ -40,7 +40,7 @@
 项目相关硬件如下：
 
 - JAKA MiniCobo机械臂：[https://github.com/SUSTech-AMASLAB/JAKA-MiniCobo](https://github.com/SUSTech-AMASLAB/JAKA-MiniCobo)
-- Intel Realsense D455深度相机：[https://github.com/SUSTech-AMASLAB/Intel_Realsense_Device/blob/main/Intel_Realsense_D455.md](https://github.com/SUSTech-AMASLAB/Intel_Realsense_Device/blob/main/Intel_Realsense_D455.md)(python sdk: https://dev.intelrealsense.com/docs/python2?_ga=2.160094900.843708283.1677650776-238679215.1665986034)
+- Intel Realsense D455深度相机：[https://github.com/SUSTech-AMASLAB/Intel_Realsense_Device/blob/main/Intel_Realsense_D455.md](https://github.com/SUSTech-AMASLAB/Intel_Realsense_Device/blob/main/Intel_Realsense_D455.md) ([python sdk](https://dev.intelrealsense.com/docs/python2?_ga=2.160094900.843708283.1677650776-238679215.1665986034))
 - 工控机：https://github.com/SUSTech-AMASLAB/EPIC-KBS9
 
 #### 4.项目参考方案实现
