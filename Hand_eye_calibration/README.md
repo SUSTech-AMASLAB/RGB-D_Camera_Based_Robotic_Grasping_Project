@@ -5,6 +5,8 @@ handeye_calib包中需要修改的地方：
 
 ~/launch/online/online_hand_to_eye_calib.launch中的arm_pose_topic（修改为jaka自带的/robot_driver/tool_point（详情见/jaka_ROS/））
 
+~/src/handeye/online_hand_to_eye_calib.py中的save方法，修改保存路径和保存形式（可考虑yaml）
+
 需要添加的：
 jaka_ROS（其实只需要jaka_ros_driver）
 
