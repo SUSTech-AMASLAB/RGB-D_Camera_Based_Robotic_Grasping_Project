@@ -1,6 +1,6 @@
 # Configuration
 
-Before using Jaka MiniCobo, the following configuration must be done.
+Before using JAKA MiniCobo, the following configuration must be done.
 
 ## 1 Connection
 
@@ -10,7 +10,7 @@ There are two ways of connection, please see [here](https://github.com/SUSTech-A
 
 ## 2 Python API
 
-In this project, I used Python to control the robotic arm. You can download some references from [here](https://www.jaka.com/jszl.html). You can also view the tutorials from [here](https://github.com/HenryWJL/JAKA-MiniCobo/blob/main/SDK/python%E4%BA%8C%E6%AC%A1%E5%BC%80%E5%8F%91.pdf). After downloading the references, find two documents named "libjakaAPI.so" and "jkrc.so" and move them to the package where you store your Python codes. Eventually, run the following commands (Remember to replace "path" with the path where you store the above two documents).
+You can download some references of JAKA's SDK from [here](https://www.jaka.com/jszl.html). You can also view the tutorials of JAKA's python API from [here](https://github.com/HenryWJL/JAKA-MiniCobo/blob/main/SDK/python%E4%BA%8C%E6%AC%A1%E5%BC%80%E5%8F%91.pdf). After downloading the references, find two documents named "libjakaAPI.so" and "jkrc.so" and move them to the package where you store your Python codes. Next, run the following commands (Remember to replace "path" with the path where you store the above two documents).
 
 ```bash
 sudo ln -s  /path/libjakaAPI.so  /usr/lib
