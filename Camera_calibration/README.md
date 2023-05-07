@@ -1,6 +1,8 @@
-Requirements: Intel RealSense D455 camera, Calibration Target.
+# Camera Calibration
 
-Process:
+Camera calibration is optional for Intel Realsense camera, since you can directly acquire the parameters from certain topics. However, if you are using usb camera, it is essential to perform camera calibration. In this project, camera calibration is not necessary, and you can just skip the following procedures as you like.  
+
+## Usage Instructions
 
 #### (1) Download the ROS camera_calibration package.
 
@@ -14,7 +16,7 @@ sudo apt-get install ros-noetic-camera-calibration
 roslaunch realsense2_camera rs_camera.launch
 ```
 
-#### (3) Run the calibration program and you will see the following interface. Remember to revise the values of size (the number of corner points) and square (the real length of each grid of the calibration target (unit: m))
+#### (3) Run the calibration program and you will see the following interface. Remember to modify the values of parameters 'size' (the number of corner points) and 'square' (the real length of each grid of the calibration target (unit: m))
 
 ```bash
 rosrun camera_calibration cameracalibrator.py --size 8x5 --square 0.0285 image:=camera/color/image_raw camera:=/camera/color/camera_info --no-service-check
