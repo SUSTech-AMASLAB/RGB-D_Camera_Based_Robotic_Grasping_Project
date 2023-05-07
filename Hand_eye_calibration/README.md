@@ -10,7 +10,7 @@ If the result of the above method is not so promising, you can try this one.
 #### (1) Clone the following repository to your workspace (remember to catkin_make and source)
 - [jaka_grasping](https://github.com/HenryWJL/jaka_grasping/tree/main)
 
-#### (2) Print an ArUco target and place it on the upper position of the robot's base-link
+#### (2) Print an ArUco target and place it on the upper position of the robot's base-link (pay attention to the direction of the coordinate axes' )
 
 #### (3) Start the aruco_ros node
 ```bash
