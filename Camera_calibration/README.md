@@ -16,7 +16,7 @@ sudo apt-get install ros-noetic-camera-calibration
 roslaunch realsense2_camera rs_camera.launch
 ```
 
-#### (3) Run the calibration program and you will see the following interface. Remember to revise the values of size (the number of corner points) and square (the real length of each grid of the calibration target (unit: m))
+#### (3) Run the calibration program and you will see the following interface. Remember to modify the values of parameters 'size' (the number of corner points) and 'square' (the real length of each grid of the calibration target (unit: m))
 
 ```bash
 rosrun camera_calibration cameracalibrator.py --size 8x5 --square 0.0285 image:=camera/color/image_raw camera:=/camera/color/camera_info --no-service-check
