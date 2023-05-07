@@ -1,8 +1,8 @@
-## Camera Calibration
+# Camera Calibration
 
 Camera calibration is optional for Intel Realsense camera, since you can directly acquire the parameters from certain topics. However, if you are using usb camera, it is essential to perform camera calibration. Camera calibration is not necessary in this project, and you can just skip the following procedures as you like.  
 
-### Usage Instructions
+## Usage Instructions
 
 #### (1) Download the ROS camera_calibration package.
 
