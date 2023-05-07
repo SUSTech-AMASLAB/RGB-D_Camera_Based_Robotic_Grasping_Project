@@ -43,7 +43,7 @@
 - Intel Realsense D455深度相机：[https://github.com/SUSTech-AMASLAB/Intel_Realsense_Device/blob/main/Intel_Realsense_D455.md](https://github.com/SUSTech-AMASLAB/Intel_Realsense_Device/blob/main/Intel_Realsense_D455.md) ([python sdk](https://dev.intelrealsense.com/docs/python2?_ga=2.160094900.843708283.1677650776-238679215.1665986034))
 - 工控机：https://github.com/SUSTech-AMASLAB/EPIC-KBS9
 
-#### 4.项目参考方案实现
+#### 4.项目参考资料
 
 Reference :
 
