@@ -19,7 +19,7 @@ sudo ldconfig
 
 ## 3 IDE (option)
 
-If you use IDE (Pycharm, Visual Studio Code, etc.) to write Python codes, it's necessary to let the Python interpreter know where the packages are. Follow the procedures below to configure your IDE.
+If you use IDE (Pycharm, Visual Studio Code, etc.) to write Python codes, it's necessary to let the Python interpreter know where the packages are. In this project, interpreter must know where the ROS packages are. Follow the procedures below to configure your IDE.
 
 #### (1) Open the "Settings" interface and find "Python Interpreter". Click "Show all" to show all the possible interpreters.
 
