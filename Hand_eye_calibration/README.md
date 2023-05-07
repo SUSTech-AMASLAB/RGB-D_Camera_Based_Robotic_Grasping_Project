@@ -12,6 +12,8 @@ If the result of the above method is not so promising, you can try this one.
 
 #### (2) Print an ArUco target and place it on the upper position of the robot's base-link (pay attention to the direction of the coordinate axes' )
 
+<p align="center"><img src="https://github.com/HenryWJL/RGB-D_Camera_Based_Robotic_Grasping_Project/blob/main/Camera_calibration/Img/Img1.png" /></p>
+
 #### (3) Start the aruco_ros node
 ```bash
 roslaunch handeye_calibration aruco_start.launch
