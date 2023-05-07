@@ -10,4 +10,4 @@ Below are the two options to obtain the camera-to-base transformation matrix in 
 
 If the result of the above method is not so promising, you can try this one. 
 
-#### Step 1:
+#### (1) Print an ArUco target and place it on the upper position of the robot's base-link
