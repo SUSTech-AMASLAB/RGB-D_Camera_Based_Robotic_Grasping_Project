@@ -2,6 +2,12 @@
 
 Below are the two options to obtain the camera-to-base transformation matrix in this project.
 
-## Option1 (commonly used)
+## Option 1 (commonly used)
 
-- [hand-eye calibration]()
+- [hand-eye calibration](https://github.com/HenryWJL/jaka_grasping/tree/main/handeye_calibration)
+
+## Option 2
+
+If the result of the above method is not so promising, you can try this one. 
+
+#### Step 1:
