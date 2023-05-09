@@ -17,7 +17,7 @@
  **Requirements**：
 
 - 1.基于相关硬件，完成相机和机械臂手眼标定，并自主识别和抓取任务。
-- 2.在本仓库上，撰写相关学习、调试、方案以及相关问题文档，并将能实现上述功能的可重复 系统框架 整合到仓库中。
+- 2.在本仓库上，撰写相关学习、调试、方案以及相关问题文档，并将能实现上述功能的可重复系统框架整合到仓库中。
 
 **Device**：JAKA MiniCobo机械臂、Intel Realsense D455深度相机、大寰PGE电动夹爪、工控机。
 
@@ -39,9 +39,10 @@
 
 项目相关硬件如下：
 
-- JAKA MiniCobo机械臂：[https://github.com/SUSTech-AMASLAB/JAKA-MiniCobo](https://github.com/SUSTech-AMASLAB/JAKA-MiniCobo)
-- Intel Realsense D455深度相机：[https://github.com/SUSTech-AMASLAB/Intel_Realsense_Device/blob/main/Intel_Realsense_D455.md](https://github.com/SUSTech-AMASLAB/Intel_Realsense_Device/blob/main/Intel_Realsense_D455.md) ([python sdk](https://dev.intelrealsense.com/docs/python2?_ga=2.160094900.843708283.1677650776-238679215.1665986034))
-- 工控机：https://github.com/SUSTech-AMASLAB/EPIC-KBS9
+- [JAKA MiniCobo机械臂](https://github.com/SUSTech-AMASLAB/JAKA-MiniCobo)
+- [Intel Realsense D455深度相机](https://github.com/SUSTech-AMASLAB/Intel_Realsense_Device/blob/main/Intel_Realsense_D455.md) ([python sdk](https://dev.intelrealsense.com/docs/python2?_ga=2.160094900.843708283.1677650776-238679215.1665986034))
+- [大寰PGE电动夹爪](https://github.com/SUSTech-AMASLAB/PGE_50_26)
+- [工控机](https://github.com/SUSTech-AMASLAB/EPIC-KBS9)
 
 #### 4.项目参考资料
 
