@@ -19,7 +19,7 @@
 - 1.基于相关硬件，完成相机和机械臂手眼标定，并自主识别和抓取任务。
 - 2.在本仓库上，撰写相关学习、调试、方案以及相关问题文档，并将能实现上述功能的可重复 系统框架 整合到仓库中。
 
-**Device**：JAKA MiniCobo机械臂、Intel Realsense D455深度相机、工控机。
+**Device**：JAKA MiniCobo机械臂、Intel Realsense D455深度相机、大寰PGE电动夹爪、工控机。
 
 ## Outline
 
