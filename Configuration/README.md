@@ -29,6 +29,6 @@ If you use IDE (Pycharm, Visual Studio Code, etc.) to write Python codes, it's n
 
 <p align="center"><img src="https://github.com/HenryWJL/RGB-D_Camera_Based_Robotic_Grasping_Project/blob/main/Configuration/Img/Img3.png" /></p>
 
-#### (3) Click "+" and add the path where ROS packages are stored.
+#### (3) Click "+" and add the two paths (The second path refers to your workspace) 
 
 <p align="center"><img src="https://github.com/HenryWJL/RGB-D_Camera_Based_Robotic_Grasping_Project/blob/main/Configuration/Img/Img4.png" /></p>
